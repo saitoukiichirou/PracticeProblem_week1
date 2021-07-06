@@ -1,0 +1,170 @@
+main {
+  font-family: 'Shippori Mincho', serif;
+  max-width: 1300px;
+  width: 1000px;
+  margin: auto;
+}
+.font__amatic {
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+}
+
+header {
+  color: #5bb;
+  height: 70px;
+  line-height: 1.5;
+  margin-bottom: 60px;
+  text-align: right;
+}
+/* ここまで　ヘッダー */
+.top__view {
+  position: relative;
+}
+
+.top__text {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: -70px;
+}
+
+.font__lage {
+  font-size: 64px;
+}
+.font__lage-green {
+  font-size: 64px;
+  color: #5bb;
+}
+
+.top__img {
+  width: 1000px;
+}
+
+.text__section {
+  position: absolute;
+  top: 50px;
+}
+
+
+.sales__posi {
+  position: relative;
+    top: 40px;
+    left: 35px;
+}
+
+.sales__camp1 {
+  color: #fff;
+  text-align: center;
+  padding: 27px 0;
+  width: 70px;
+  background-color: #ff4384;
+  border-radius: 50%;
+}
+
+.sales__camp2 {
+  position: relative;
+  top: -50px;
+  left: 80px;
+  color: #5bb;
+  font-size: 11px;
+}
+
+.sales__camp3 {
+  position: relative;
+  top: -50px;
+  left: 80px;
+  color: #ff4384;
+}
+
+.sales__camp4 {
+  color: #fff;
+  position: relative;
+  top: 30px;
+  left: 35px;
+  text-align: center;
+  padding: 14px 0;
+  width: 300px;
+  background-color: #ff4384;
+  border-radius: 22px;
+  box-shadow: 0px 0px 10px #ff4384;
+}
+
+.sales__price {
+
+font-size: 28px;
+}
+
+.care__txt{
+  width: auto;
+  height: auto;
+  background: #5bb;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin: -2px 0 0 0;
+}
+
+
+/* ここまでキャンペーン */
+
+
+.care__txt-lage {
+  font-size: 24px;
+}
+
+.care__arrow {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 20px solid #5bb;
+  position: relative;
+  left: 50%;
+}
+
+.trouble__aeria {
+  display: flex;
+  justify-content: center;
+}
+
+.img__trouble {
+  width: 200px;
+}
+
+.trouble__check{
+height: 200px;
+border: 2px #5bb solid;
+border-radius: 10px;
+}
+
+li {
+  list-style: none;
+  padding-left: 20px;
+  line-height: 2;
+}
+
+li::before {
+  content: "";
+  background: url(../img/check.svg) no-repeat;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  position:absolute;
+  transform: translate(-15px, 10px);
+}
+
+/* ここまで肌のトラブル */
+
+.sol__txt{
+  width: auto;
+  height: auto;
+  background: #5bb;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+  /* margin: 0 0 0 0; */
+}
+
+.point__color {
+  color: #ff4384;
+}
